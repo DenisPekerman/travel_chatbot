@@ -1,0 +1,150 @@
+{
+  "Italy": {
+    "food_1": {
+      "heading": "Authentic Pizza in Naples",
+      "body": "Taste traditional Neapolitan pizza made by expert pizzaiolos.",
+      "publisher": "Napoli Pizzeria",
+      "link": "https://www.napolipizzeria.com"
+    },
+    "food_2": {
+      "heading": "Tuscan Wine Tasting",
+      "body": "Explore world-renowned Tuscan wines at local vineyards.",
+      "publisher": "Tuscan Vineyards",
+      "link": "https://www.tuscanvineyards.com"
+    },
+    "food_3": {
+      "heading": "Venetian Seafood Delights",
+      "body": "Enjoy fresh seafood specialties in the heart of Venice.",
+      "publisher": "Venice Seafood Bistro",
+      "link": "https://www.veniceseafoodbistro.com"
+    },
+    "culture_1": {
+      "heading": "Historical Rome Tours",
+      "body": "Discover ancient Rome's iconic landmarks with expert guides.",
+      "publisher": "Roman Heritage Tours",
+      "link": "https://www.romanheritagetours.com"
+    },
+    "culture_2": {
+      "heading": "Florence Art Workshops",
+      "body": "Participate in hands-on art workshops in Florence.",
+      "publisher": "Florence Art Center",
+      "link": "https://www.florenceartcenter.com"
+    },
+    "culture_3": {
+      "heading": "Opera Nights in Milan",
+      "body": "Experience world-class opera performances at La Scala.",
+      "publisher": "La Scala Opera House",
+      "link": "https://www.lascala.com"
+    },
+    "location_1": {
+      "heading": "Amalfi Coast Getaway",
+      "body": "Relax on stunning beaches along Italy’s Amalfi Coast.",
+      "publisher": "Amalfi Travel",
+      "link": "https://www.amalfitravel.com"
+    },
+    "location_2": {
+      "heading": "Venice Canal Tours",
+      "body": "Explore Venice’s romantic canals by gondola.",
+      "publisher": "Venice Gondola Tours",
+      "link": "https://www.venicegondolatours.com"
+    },
+    "location_3": {
+      "heading": "Tuscan Countryside Retreats",
+      "body": "Enjoy peaceful countryside stays in Tuscany.",
+      "publisher": "Tuscany Retreats",
+      "link": "https://www.tuscanyretreats.com"
+    },
+    "entertainment_1": {
+      "heading": "Venice Carnival Experience",
+      "body": "Join the festivities at the famous Venice Carnival.",
+      "publisher": "Carnival Venice",
+      "link": "https://www.carnivalvenice.com"
+    },
+    "entertainment_2": {
+      "heading": "Rome Music Festivals",
+      "body": "Attend vibrant music festivals throughout Rome.",
+      "publisher": "Rome Festivals",
+      "link": "https://www.romefestivals.com"
+    },
+    "entertainment_3": {
+      "heading": "Film Nights in Bologna",
+      "body": "Enjoy open-air film screenings in Bologna’s historic squares.",
+      "publisher": "Bologna Film Society",
+      "link": "https://www.bolognafilmsociety.com"
+    }
+  },
+  "France": {
+    "food_1": {
+      "heading": "Paris Gourmet Dining",
+      "body": "Savor exquisite French cuisine in Paris’ top restaurants.",
+      "publisher": "Parisian Gourmet",
+      "link": "https://www.parisiangourmet.com"
+    },
+    "food_2": {
+      "heading": "Lyon Culinary Tours",
+      "body": "Explore Lyon’s renowned gastronomy through guided tours.",
+      "publisher": "Lyon Food Tours",
+      "link": "https://www.lyonfoodtours.com"
+    },
+    "food_3": {
+      "heading": "Bordeaux Wine Experiences",
+      "body": "Sample famous wines in the Bordeaux region.",
+      "publisher": "Bordeaux Vineyards",
+      "link": "https://www.bordeauxvineyards.com"
+    },
+    "culture_1": {
+      "heading": "Louvre Museum Visits",
+      "body": "Discover priceless art treasures at the Louvre.",
+      "publisher": "Louvre Tours",
+      "link": "https://www.louvretours.com"
+    },
+    "culture_2": {
+      "heading": "Versailles Palace Tours",
+      "body": "Explore the grandeur of the Palace of Versailles.",
+      "publisher": "Versailles Guides",
+      "link": "https://www.versaillesguides.com"
+    },
+    "culture_3": {
+      "heading": "Mont Saint-Michel Adventures",
+      "body": "Visit the iconic Mont Saint-Michel island monastery.",
+      "publisher": "Normandy Heritage",
+      "link": "https://www.normandyheritage.com"
+    },
+    "location_1": {
+      "heading": "French Riviera Escapes",
+      "body": "Enjoy the luxury and beauty of the French Riviera.",
+      "publisher": "Riviera Vacations",
+      "link": "https://www.rivieravacations.com"
+    },
+    "location_2": {
+      "heading": "Alpine Beauty in Chamonix",
+      "body": "Experience majestic Alpine views in Chamonix.",
+      "publisher": "Chamonix Adventures",
+      "link": "https://www.chamonixadventures.com"
+    },
+    "location_3": {
+      "heading": "Countryside Retreats in Provence",
+      "body": "Relax in idyllic Provencal villages.",
+      "publisher": "Provence Retreats",
+      "link": "https://www.provenceretreats.com"
+    },
+    "entertainment_1": {
+      "heading": "Cannes Film Festival",
+      "body": "Attend world-famous screenings at Cannes.",
+      "publisher": "Cannes Events",
+      "link": "https://www.cannesevents.com"
+    },
+    "entertainment_2": {
+      "heading": "Paris Jazz Clubs",
+      "body": "Enjoy vibrant jazz nights across Paris.",
+      "publisher": "Paris Jazz Scene",
+      "link": "https://www.parisjazzscene.com"
+    },
+    "entertainment_3": {
+      "heading": "Ballet Nights in Paris",
+      "body": "Witness enchanting ballet performances.",
+      "publisher": "Paris Ballet Company",
+      "link": "https://www.parisballet.com"
+    }
+  }
+}

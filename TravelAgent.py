@@ -1,8 +1,8 @@
 import os
 import openai
+import math
+from random import randint, choice
 import gradio as gr
-import json
-import random
 from dotenv import load_dotenv
 
 # Import the ad injection utility functions
@@ -15,66 +15,69 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # Load ads JSON using the ad_injector utility
 ads = load_ads()
 
-def travel_agent_chat(user_message, history):
+def choose_ad():
+    # return a random ad
+    ad = ads[0]
+    print(ad)
+    return ad
+
+def format_ad(ad):
+    return f"""
+        {ad["title"]}
+        {ad["content"]}
+        {ad["country"]}
+        {ad["publisher"]}
+    """
+
+def travel_agent_chat(user_message, history=None):
     if history is None:
         history = []
-    
-    # Use the ad injector utility to get an ad message based on the user message
-    ad_message = get_ad(user_message, ads)
+
+    ad = choose_ad()
     
     # System prompt to set the travel agent personality and guidelines
-    system_message = (
-        "You are a knowledgeable and friendly travel agent. "
-        "Provide expert travel advice, including recommendations on destinations, itineraries, flights, hotels, and local experiences. "
-        "If the user asks questions unrelated to travel, politely state that you only provide travel-related information."
-    )
+    system_message = f"""
+        You are a knowledgeable and friendly travel agent. 
+        Provide expert travel advice, including recommendations on destinations, itineraries, flights, hotels, and local experiences. 
+        If the user asks questions unrelated to travel, politely state that you only provide travel-related information.
+
+        You should answer the question based on your own knowledge. 
+
+        You should also use this information and integrate it seamlessly: 
+        ---
+        {format_ad(ad)}
+        ---
+        Surrond the entire mention with <div class="sponsored-content"></div> tags.
+        """
+    
 
     # Build the conversation messages for OpenAI
     messages = [{"role": "system", "content": system_message}]
-    for user_text, bot_text in history:
-        messages.append({"role": "user", "content": user_text})
-        messages.append({"role": "assistant", "content": bot_text})
+    messages.extend(history)
     messages.append({"role": "user", "content": user_message})
 
     try:
         response = openai.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o",
             messages=messages,
-            temperature=0.7,
         )
         bot_message = response.choices[0].message.content.strip()
     except Exception as e:
         bot_message = f"Error during API call: {str(e)}"
 
     # Update the conversation history (the travel agent's answer does not include the ad)
-    history.append((user_message, bot_message))
-    return ad_message, bot_message, history
+    history.append({"role": "assistant", "content": bot_message})
+    return bot_message
 
-def respond(user_message, history):
-    # Process the user message to get the separate ad and travel agent answer
-    ad_message, bot_message, history = travel_agent_chat(user_message, history)
-    # Return an empty input to clear the textbox, the ad output, the updated conversation history, and the state
-    return "", ad_message, history, history
+def predict(user_message, history):
+    msg = travel_agent_chat(user_message, history)
+    return msg
 
+with gr.Blocks(css=".sponsored-content {font-style: italic; color: red;}") as demo:
 
-
-with gr.Blocks() as demo:
-    gr.Markdown("# Travel Agent Chatbot Demo")
-    gr.Markdown(
-        "Chat with our travel specialist! Ask for travel advice, destination recommendations, and itinerary ideas. "
-        "If your message references Italy or France, an HTML ad will be shown above the travel agent's answer."
+    chat = gr.ChatInterface(
+        predict,
+        type="messages"
     )
-    
-    # HTML component to display the ad output separately
-    ad_html = gr.HTML(label="Advertisement")
-    # Chatbot component displays the conversation history
-    chatbot = gr.Chatbot(label="Conversation History")
-    # Textbox for user input
-    msg = gr.Textbox(placeholder="Type your message here...", label="Your Message")
-    # State component to hold conversation history
-    state = gr.State([])
 
-    # When the user submits a message, update the ad output and the conversation history
-    msg.submit(respond, inputs=[msg, state], outputs=[msg, ad_html, chatbot, state])
-
-demo.launch(share=True)
+demo.launch()

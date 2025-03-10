@@ -24,7 +24,7 @@ If it does, return only the country name ("Italy" or "France") without any addit
 If both are referenced, return one of them arbitrarily.
 Examples:
 - Input: "food in paris" -> Output: "France"
-- Input: "places to go in {{french district}}" -> Output: "France"
+- Input: "places to go in <example of french district name>" -> Output: "France"
 Text: {user_message}
 """
     try:
@@ -46,6 +46,7 @@ Text: {user_message}
     except Exception as e:
         # In case of error, return an empty string so no ad is selected
         return ""
+
 
 def get_ad(user_message, ads):
     """

@@ -1,150 +1,142 @@
-{
-  "Italy": {
-    "food_1": {
-      "heading": "Authentic Pizza in Naples",
-      "body": "Taste traditional Neapolitan pizza made by expert pizzaiolos.",
-      "publisher": "Napoli Pizzeria",
-      "link": "https://www.napolipizzeria.com"
-    },
-    "food_2": {
-      "heading": "Tuscan Wine Tasting",
-      "body": "Explore world-renowned Tuscan wines at local vineyards.",
-      "publisher": "Tuscan Vineyards",
-      "link": "https://www.tuscanvineyards.com"
-    },
-    "food_3": {
-      "heading": "Venetian Seafood Delights",
-      "body": "Enjoy fresh seafood specialties in the heart of Venice.",
-      "publisher": "Venice Seafood Bistro",
-      "link": "https://www.veniceseafoodbistro.com"
-    },
-    "culture_1": {
-      "heading": "Historical Rome Tours",
-      "body": "Discover ancient Rome's iconic landmarks with expert guides.",
-      "publisher": "Roman Heritage Tours",
-      "link": "https://www.romanheritagetours.com"
-    },
-    "culture_2": {
-      "heading": "Florence Art Workshops",
-      "body": "Participate in hands-on art workshops in Florence.",
-      "publisher": "Florence Art Center",
-      "link": "https://www.florenceartcenter.com"
-    },
-    "culture_3": {
-      "heading": "Opera Nights in Milan",
-      "body": "Experience world-class opera performances at La Scala.",
-      "publisher": "La Scala Opera House",
-      "link": "https://www.lascala.com"
-    },
-    "location_1": {
-      "heading": "Amalfi Coast Getaway",
-      "body": "Relax on stunning beaches along Italy’s Amalfi Coast.",
-      "publisher": "Amalfi Travel",
-      "link": "https://www.amalfitravel.com"
-    },
-    "location_2": {
-      "heading": "Venice Canal Tours",
-      "body": "Explore Venice’s romantic canals by gondola.",
-      "publisher": "Venice Gondola Tours",
-      "link": "https://www.venicegondolatours.com"
-    },
-    "location_3": {
-      "heading": "Tuscan Countryside Retreats",
-      "body": "Enjoy peaceful countryside stays in Tuscany.",
-      "publisher": "Tuscany Retreats",
-      "link": "https://www.tuscanyretreats.com"
-    },
-    "entertainment_1": {
-      "heading": "Venice Carnival Experience",
-      "body": "Join the festivities at the famous Venice Carnival.",
-      "publisher": "Carnival Venice",
-      "link": "https://www.carnivalvenice.com"
-    },
-    "entertainment_2": {
-      "heading": "Rome Music Festivals",
-      "body": "Attend vibrant music festivals throughout Rome.",
-      "publisher": "Rome Festivals",
-      "link": "https://www.romefestivals.com"
-    },
-    "entertainment_3": {
-      "heading": "Film Nights in Bologna",
-      "body": "Enjoy open-air film screenings in Bologna’s historic squares.",
-      "publisher": "Bologna Film Society",
-      "link": "https://www.bolognafilmsociety.com"
-    }
+[
+  {
+    "title": "Enchanting Paris Getaway",
+    "content": "Discover romance and art in the heart of France, visit an amazing resturant on the Sienne and listen to some amaznig Parisian music by Francuas Jouluaparux.",
+    "publisher": "Parisian Dreams",
+    "country": "France",
+    "link": "https://www.parisiandreams.com"
   },
-  "France": {
-    "food_1": {
-      "heading": "Paris Gourmet Dining",
-      "body": "Savor exquisite French cuisine in Paris’ top restaurants.",
-      "publisher": "Parisian Gourmet",
-      "link": "https://www.parisiangourmet.com"
-    },
-    "food_2": {
-      "heading": "Lyon Culinary Tours",
-      "body": "Explore Lyon’s renowned gastronomy through guided tours.",
-      "publisher": "Lyon Food Tours",
-      "link": "https://www.lyonfoodtours.com"
-    },
-    "food_3": {
-      "heading": "Bordeaux Wine Experiences",
-      "body": "Sample famous wines in the Bordeaux region.",
-      "publisher": "Bordeaux Vineyards",
-      "link": "https://www.bordeauxvineyards.com"
-    },
-    "culture_1": {
-      "heading": "Louvre Museum Visits",
-      "body": "Discover priceless art treasures at the Louvre.",
-      "publisher": "Louvre Tours",
-      "link": "https://www.louvretours.com"
-    },
-    "culture_2": {
-      "heading": "Versailles Palace Tours",
-      "body": "Explore the grandeur of the Palace of Versailles.",
-      "publisher": "Versailles Guides",
-      "link": "https://www.versaillesguides.com"
-    },
-    "culture_3": {
-      "heading": "Mont Saint-Michel Adventures",
-      "body": "Visit the iconic Mont Saint-Michel island monastery.",
-      "publisher": "Normandy Heritage",
-      "link": "https://www.normandyheritage.com"
-    },
-    "location_1": {
-      "heading": "French Riviera Escapes",
-      "body": "Enjoy the luxury and beauty of the French Riviera.",
-      "publisher": "Riviera Vacations",
-      "link": "https://www.rivieravacations.com"
-    },
-    "location_2": {
-      "heading": "Alpine Beauty in Chamonix",
-      "body": "Experience majestic Alpine views in Chamonix.",
-      "publisher": "Chamonix Adventures",
-      "link": "https://www.chamonixadventures.com"
-    },
-    "location_3": {
-      "heading": "Countryside Retreats in Provence",
-      "body": "Relax in idyllic Provencal villages.",
-      "publisher": "Provence Retreats",
-      "link": "https://www.provenceretreats.com"
-    },
-    "entertainment_1": {
-      "heading": "Cannes Film Festival",
-      "body": "Attend world-famous screenings at Cannes.",
-      "publisher": "Cannes Events",
-      "link": "https://www.cannesevents.com"
-    },
-    "entertainment_2": {
-      "heading": "Paris Jazz Clubs",
-      "body": "Enjoy vibrant jazz nights across Paris.",
-      "publisher": "Paris Jazz Scene",
-      "link": "https://www.parisjazzscene.com"
-    },
-    "entertainment_3": {
-      "heading": "Ballet Nights in Paris",
-      "body": "Witness enchanting ballet performances.",
-      "publisher": "Paris Ballet Company",
-      "link": "https://www.parisballet.com"
-    }
+  {
+    "title": "Historic Rome Experience",
+    "content": "Walk the paths of ancient history in Italy's vibrant capital.",
+    "publisher": "Roman Holidays",
+    "country": "Italy",
+    "link": "https://www.romanholidays.com"
+  },
+  {
+    "title": "Barcelona Beach Adventures",
+    "content": "Sun, sea, and culture await in sunny Spain.",
+    "publisher": "Catalonia Travels",
+    "country": "Spain",
+    "link": "https://www.cataloniatravels.com"
+  },
+  {
+    "title": "Alpine Excursions in Switzerland",
+    "content": "Explore the majestic beauty of the Swiss Alps.",
+    "publisher": "Swiss Peaks",
+    "country": "Switzerland",
+    "link": "https://www.swisspeaks.com"
+  },
+  {
+    "title": "Amsterdam Canal Cruises",
+    "content": "Discover Amsterdam's charming canals and historic architecture.",
+    "publisher": "Dutch Waterways",
+    "country": "Netherlands",
+    "link": "https://www.dutchwaterways.com"
+  },
+  {
+    "title": "Iceland's Northern Lights",
+    "content": "Witness nature's dazzling display in Iceland.",
+    "publisher": "Icelandic Wonders",
+    "country": "Iceland",
+    "link": "https://www.icelandicwonders.com"
+  },
+  {
+    "title": "Greek Island Hopping",
+    "content": "Explore the beauty and culture of Greece's stunning islands.",
+    "publisher": "Aegean Adventures",
+    "country": "Greece",
+    "link": "https://www.aegeanadventures.com"
+  },
+  {
+    "title": "Vienna's Classical Journey",
+    "content": "Experience music, art, and history in Austria's capital.",
+    "publisher": "Vienna Travels",
+    "country": "Austria",
+    "link": "https://www.viennatravels.com"
+  },
+  {
+    "title": "Portugal's Coastal Paradise",
+    "content": "Relax on Portugal's scenic beaches and quaint towns.",
+    "publisher": "Lisbon Escapes",
+    "country": "Portugal",
+    "link": "https://www.lisbonescapes.com"
+  },
+  {
+    "title": "Irish Countryside Retreats",
+    "content": "Discover Ireland's lush landscapes and cozy villages.",
+    "publisher": "Emerald Tours",
+    "country": "Ireland",
+    "link": "https://www.emeraldtours.com"
+  },
+  {
+    "title": "Explore Berlin's History",
+    "content": "Dive into Berlin's fascinating historical sites and vibrant culture.",
+    "publisher": "Berlin Guided Tours",
+    "country": "Germany",
+    "link": "https://www.berlinguidedtours.com"
+  },
+  {
+    "title": "Scenic Norway Cruises",
+    "content": "Enjoy breathtaking fjord cruises in Norway.",
+    "publisher": "Nordic Cruise Lines",
+    "country": "Norway",
+    "link": "https://www.nordiccruiselines.com"
+  },
+  {
+    "title": "Scottish Highlands Adventure",
+    "content": "Explore the rugged beauty of the Scottish Highlands.",
+    "publisher": "Highland Treks",
+    "country": "Scotland",
+    "link": "https://www.highlandtreks.com"
+  },
+  {
+    "title": "Croatian Coastal Discovery",
+    "content": "Experience the crystal-clear waters and medieval towns of Croatia.",
+    "publisher": "Adriatic Travels",
+    "country": "Croatia",
+    "link": "https://www.adriatictravels.com"
+  },
+  {
+    "title": "Budapest Cultural Escape",
+    "content": "Enjoy historic spas and vibrant culture in Hungary.",
+    "publisher": "Budapest Getaways",
+    "country": "Hungary",
+    "link": "https://www.budapestgetaways.com"
+  },
+  {
+    "title": "Swedish City Break",
+    "content": "Discover Stockholm’s charming streets and vibrant nightlife.",
+    "publisher": "Stockholm Tours",
+    "country": "Sweden",
+    "link": "https://www.stockholmtours.com"
+  },
+  {
+    "title": "Belgian Chocolate Tours",
+    "content": "Indulge in Belgium’s world-famous chocolates.",
+    "publisher": "Brussels Delights",
+    "country": "Belgium",
+    "link": "https://www.brusselsdelights.com"
+  },
+  {
+    "title": "Finnish Lapland Adventures",
+    "content": "Experience the magic of Lapland and meet Santa Claus.",
+    "publisher": "Lapland Tours",
+    "country": "Finland",
+    "link": "https://www.laplandtours.com"
+  },
+  {
+    "title": "Danish Castles Tour",
+    "content": "Visit Denmark’s majestic castles and royal history.",
+    "publisher": "Royal Denmark",
+    "country": "Denmark",
+    "link": "https://www.royaldenmark.com"
+  },
+  {
+    "title": "Prague City Explorations",
+    "content": "Stroll through Prague’s stunning architecture and history.",
+    "publisher": "Czech Adventures",
+    "country": "Czech Republic",
+    "link": "https://www.czechadventures.com"
   }
-}
+]

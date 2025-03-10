@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 import gradio as gr
 from dotenv import load_dotenv
-from AddHandling import choose_ad
+from AdHandling import choose_ad
 
 load_dotenv()
 client = OpenAI(
